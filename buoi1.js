@@ -11,3 +11,8 @@
 // git config --global user.name "nguyen van A"
 // git config --global user.email "nguyenvana@gmail.com"
 
+// git init
+// tạo file mới
+// git add . (lưu file mới)
+// git commit -m "message" (đóng gói lưu trữ cho phiên làm việc)
+
