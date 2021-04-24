@@ -70,3 +70,13 @@
 // console.log(showName("Teo"))
 // const ketQua = tinhTong(5,4)
 // console.log(ketQua)
+
+// 7 : Object method
+const teo = {
+    name : "Nguyen Van Teo",
+    age : 10,
+    showInfo : function (){
+        console.log("Ten : " + this.name + " , Tuoi : " + this.age)
+    }
+}
+teo.showInfo()
