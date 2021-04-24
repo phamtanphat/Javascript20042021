@@ -85,8 +85,7 @@
 
 // 6 gia tri bang false : false , null , '' , NaN , undefined , 0
 
-let a = 5
-let b = 5
+
 
 // a > b = 1
 // a < b = -1
@@ -101,7 +100,37 @@ let b = 5
 // }else{
 //     console.log(1)
 // }
+// let a = 5
+// let b = 5
+// a > b ? console.log("A lon hon b") : console.log("a be hon hoac bang b")
 
-a > b ? console.log("A lon hon b") : console.log("a be hon hoac bang b")
+// 9 : Vong lap
+// const arrNames = ["Teo","Ti","Tun","Tuan"]
+// for(let i = 0 ; i < arrNames.length ; i++){
+//     console.log(arrNames[i])
+// }
+
+// viet 1 phuong thuc kiem tra so nguyen to
+// So input la so nguyen to , so input khong la so nguyen to
+
+function kiemTraSoNguyenTo(number){
+    let count = 0
+    if (number < 2){
+        console.log("Khong phai so nguyen to")
+        return
+    }
+
+    for (let i = 2 ; i <= number ; i++ ){
+        if (number % i == 0){
+            count++
+        }
+    }
+    if (count == 1){
+        console.log("La so nguyen to")
+    }else{
+        console.log("Khong phai la so nguyen to")
+    }
+}
+
 
 
