@@ -26,6 +26,22 @@
 // let b = 15
 // console.log(a)
 
+// 2 : Kiểu dữ liệu
+// let a 
+// console.log(a)
+// let a = 5
+// console.log(typeof(typeof(a)))
+
+// 3 : object
+// mutable , immutable
+const teo = {
+    name : "Nguyen Van Teo",
+    age : 10
+}
+// console.log(teo.name)
+console.log(teo['name'])
+
+
 
 
 
