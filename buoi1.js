@@ -72,11 +72,36 @@
 // console.log(ketQua)
 
 // 7 : Object method
-const teo = {
-    name : "Nguyen Van Teo",
-    age : 10,
-    showInfo : function (){
-        console.log("Ten : " + this.name + " , Tuoi : " + this.age)
-    }
-}
-teo.showInfo()
+// const teo = {
+//     name : "Nguyen Van Teo",
+//     age : 10,
+//     showInfo : function (){
+//         console.log("Ten : " + this.name + " , Tuoi : " + this.age)
+//     }
+// }
+// teo.showInfo()
+
+// 8 : Phep so sanh
+
+// 6 gia tri bang false : false , null , '' , NaN , undefined , 0
+
+let a = 5
+let b = 5
+
+// a > b = 1
+// a < b = -1
+// a == b = 0
+
+// Toan tu ba ngoi
+// bieuthuc ? true  : false
+// if (a < b){
+//     console.log(-1)
+// }else if (a == b){
+//     console.log(0)
+// }else{
+//     console.log(1)
+// }
+
+a > b ? console.log("A lon hon b") : console.log("a be hon hoac bang b")
+
+
