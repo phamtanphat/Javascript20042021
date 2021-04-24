@@ -58,3 +58,15 @@
 // -2
 
 // console.log(a , b ,c)
+
+// 6 : function
+// function showName(name){
+//     console.log(name)
+//     return
+// }
+// function tinhTong(a , b){
+//     return a + b
+// }
+// console.log(showName("Teo"))
+// const ketQua = tinhTong(5,4)
+// console.log(ketQua)
