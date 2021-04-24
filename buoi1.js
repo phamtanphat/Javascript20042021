@@ -34,14 +34,27 @@
 
 // 3 : object
 // mutable , immutable
-const teo = {
-    name : "Nguyen Van Teo",
-    age : 10
-}
+// const teo = {
+//     name : "Nguyen Van Teo",
+//     age : 10
+// }
 // console.log(teo.name)
-console.log(teo['name'])
+// console.log(teo['name'])
+// ctrl + /
 
+// 4 : Array
+// const arrNames = ["tèo","tí","tủn"]
+// console.log(arrNames[0])
 
+// 5 : Toan tu
+// let a = 5
+// let b = 10
 
+// let c = a++ - b++ - --a - --b + --b - --a + a-- + b--
+// 5 - 10 - --a - --b + --b - --a + a-- + b-- (a = 6 , b = 11)
+// 6 - 11 - 5 - 10 + --b - --a + a-- + b-- (a = 5 , b = 10)
+// 6 - 11 - 5 - 10 + 9 - 4 + a-- + b-- (a = 4 , b = 10)
+// 6 - 11 - 5  + 9  (a = 3 , b = 8)
+// -2
 
-
+// console.log(a , b ,c)
