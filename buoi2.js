@@ -43,29 +43,38 @@
  * Gợi ý: đây là bài tập khó, bạn nên tìm hiểu về recursive trước
  */
 
-var apartment = {
-  bedroom: {
-    area: 20,
-    bed: {
-      type: 'twin-bed',
-      price: 100
-    }
-  }
-};
+// var apartment = {
+//   bedroom: {
+//     area: 20,
+//     bed: {
+//       type: 'twin-bed',
+//       price: 100
+//     }
+//   }
+// };
 
-function getkey(object){
-    for (const key in object) {
-        console.log(key)
-        for (const keyBedRoom in object[key]) {
-            console.log(keyBedRoom)
-            for (const keyBed in object[key][keyBedRoom]){
-                console.log(keyBed)
-            }
-        }  
-    }
-}
+// function getkey(object){
+//     for (const key in object) {
+//         console.log(key)
+//         for (const keyBedRoom in object[key]) {
+//             console.log(keyBedRoom)
+//             for (const keyBed in object[key][keyBedRoom]){
+//                 console.log(keyBed)
+//             }
+//         }  
+//     }
+// }
 
-getkey(apartment)
+// function getKey(object){
+//     for (const key in object) {
+//         console.log(key)
+//         if (typeof object[key] === 'object'){
+//             getKey(object[key])
+//         } 
+//     }
+// }
+
+// getKey(apartment)
 
 /**
  * Kết quả mong muốn:
@@ -76,3 +85,28 @@ getkey(apartment)
  * price
  * Chú ý: không cần hiển thị ra đúng thứ tự như trên
  */
+
+//12 : Array method
+// const arrNumbers = [4,1,2,5,10,9]
+
+// Thêm phần tử cuối mảng
+// arrNumbers.push(11)
+// Xóa phần tử cuối
+// arrNumbers.pop()
+// Thêm phần tử ở đầu
+// arrNumbers.unshift(15)
+// Xóa phần tử ở đầu
+// arrNumbers.shift()
+// Xóa phần tử ở giữa
+// arrNumbers.splice(1,4)
+// Thêm ở giữa
+// arrNumbers.splice(1,0,20,21,22,23)
+
+// console.log(arrNumbers)
+
+function removeEnd(arr, n) {
+	
+}
+
+console.log(removeEnd([2, 3, 1, 8, 9, 7], 3));
+
