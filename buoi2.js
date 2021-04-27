@@ -113,10 +113,49 @@
 
 // Viết hàm JavaScript để lấy phần tử đầu tiên của mảng. Truyền tham số 'n' sẽ trả về các phần tử 'n' đầu tiên của mảng
 
-function first(arr, n) {
-    return arr.slice(0, n)
-}
+// function first(arr, n) {
+//     return arr.slice(0, n)
+// }
 
-console.log(first([1, 2, 3 , 4 , 5 , 6], 5)); // expect [1, 2]
+// console.log(first([1, 2, 3 , 4 , 5 , 6], 5)); // expect [1, 2]
+
+// 13 : Higher order function
+// interface
+
+// function nhan2(number){
+//     return number * 2
+// }
+
+// function tinhTong(arr , func){
+//     let result = 0
+//     for (const value of arr) {
+//         result += value
+//     }
+//     return func(result)
+// }
+
+// console.log(tinhTong([1,2],nhan2))
+
+/**
+ * 1. Viết hàm transform nhận vào 1 array gồm các số và 1 function callback. Nội dung của hàm bao gồm:
+ * - Khai báo 1 biến result có giá trị là 1 empty array
+ * - Lặp qua từng phần tử trong array, với mỗi phần tử, gọi hàm callback và truyền vào phần tử đó, được kết quả bao nhiêu thì push vào array khai báo ở trên
+ * - Trả về result array
+ */
+// `function transform(numbers, callback) {
+//     const newArr = []
+//     for (const value of numbers) {
+//         newArr.push(callback(value))
+//     }
+//     return newArr
+// }
+
+// function double(num) {
+//   return num * 2;
+// }
+
+// var output = transform([2, 4, 6], double);
+// console.log(output);`
+// Expect: [4, 8, 12]
 
 
