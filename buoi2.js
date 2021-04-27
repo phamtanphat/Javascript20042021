@@ -114,9 +114,9 @@
 // Viết hàm JavaScript để lấy phần tử đầu tiên của mảng. Truyền tham số 'n' sẽ trả về các phần tử 'n' đầu tiên của mảng
 
 function first(arr, n) {
-  
+    return arr.slice(0, n)
 }
 
-console.log(first([1, 2, 3], 2)); // expect [1, 2]
+console.log(first([1, 2, 3 , 4 , 5 , 6], 5)); // expect [1, 2]
 
 
