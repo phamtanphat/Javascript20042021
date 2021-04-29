@@ -51,28 +51,56 @@
 
 // console.log(newArrNums)
 
-const arrPerson = [
-    {id : 1 , name : 'Tèo', age : 20 },
-    {id : 2 , name : 'Tủn', age : 25 },
-    {id : 3 , name : 'Hoa', age : 22 },
-    {id : 4 , name : 'Tuấn', age : 21 },
-    {id : 5 , name : 'Lan', age : 26 },
-]
+// const arrPerson = [
+//     {id : 1 , name : 'Tèo', age : 20 },
+//     {id : 2 , name : 'Tủn', age : 25 },
+//     {id : 3 , name : 'Hoa', age : 22 },
+//     {id : 4 , name : 'Tuấn', age : 21 },
+//     {id : 5 , name : 'Lan', age : 26 },
+// ]
 
-// Yêu cầu in ra mảng person dưới 25 tuổi
-// ["Tèo","Tuấn","Hoa"]
+// // Yêu cầu in ra mảng person dưới 25 tuổi
+// // ["Tèo","Tuấn","Hoa"]
 
-// const newArr = arrPerson.reduce(function(accumulator, currentValue){
-//     if (currentValue.age < 25){
-//         accumulator.push(currentValue.name);
-//     }
-//     return accumulator
-// },[])
+// // const newArr = arrPerson.reduce(function(accumulator, currentValue){
+// //     if (currentValue.age < 25){
+// //         accumulator.push(currentValue.name);
+// //     }
+// //     return accumulator
+// // },[])
 
-// console.log(newArr)
+// // console.log(newArr)
 
-function countOccurrences(arr) {
-
-}
-countOccurrences(["a", "b", "c", "b", "a", "a"]);
+// function countOccurrences(arr) {
+//     const object = arr.reduce(function(accumulator,currentValue){
+//         if(currentValue in accumulator){
+//             accumulator[currentValue]++
+//         }else{
+//             accumulator[currentValue] = 1
+//         }
+//         return accumulator
+//     },{})
+//     console.log(object)
+// }
+// countOccurrences(["a", "b", "c", "b", "a", "a"]);
 // {a : 3 , b : 2 , c : 1}
+
+// const ob = {"a" : 1}
+// ob["a"] = 2
+// ob["b"] = 1
+// console.log(ob)
+
+// 16 : hàm sort
+// const arrNums = [1,10,2,20,15,5,6]
+
+// console.log(arrNums.sort(function(a , b){
+//     return b - a 
+// }))
+
+// const arrChar = ['a','A','b','c','C','D']
+
+// console.log(arrChar.sort())
+
+
+
+
