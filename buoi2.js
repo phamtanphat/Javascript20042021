@@ -158,4 +158,49 @@
 // console.log(output);`
 // Expect: [4, 8, 12]
 
+// 14 : Hàm map
+// thay đổi giá trị phần tử trong mảng
+// không thay đổi kích thước của mảng
+// tạo ra mảng mới chứa sự thay đổi này
+
+// const arrNumbers = [1,2,3,4,5]
+
+// const newArrNumbers = arrNumbers.map(function(number){
+//     return number * 2
+// })
+// console.log(newArrNumbers)
+
+// Make an array of strings of the names
+function namesOnly(arr) {
+    const newArr = arr.map(function(person){
+        return person.name
+    })
+    console.log(newArr)
+}
+
+namesOnly([
+  {
+    name: "Angelina Jolie",
+    age: 80
+  },
+  {
+    name: "Eric Jones",
+    age: 2
+  },
+  {
+    name: "Paris Hilton",
+    age: 5
+  },
+  {
+    name: "Kayne West",
+    age: 16
+  },
+  {
+    name: "Bob Ziroll",
+    age: 100
+  }
+])
+// ["Angelina Jolie", "Eric Jones", "Paris Hilton", "Kayne West", "Bob Ziroll"]
+
+
 
