@@ -101,6 +101,45 @@
 
 // console.log(arrChar.sort())
 
+// 18 : Function scope {}
+
+// let a = 5
+
+// function setValue(){
+//     a = 10
+//     console.log(a)
+// }
+// setValue() // 10
+// console.log(a) // 5
+
+// 19 : Arrow function
+
+// const arrNums = [1,2,3,4,5];
+
+// const newArr = arrNums.map(function(number){
+//     return number * 2
+// })
+// const newArr2 = arrNums.map((number) => {
+//     return number  * 2
+// })
+
+const teo = {
+    name : 'teo', 
+    age : 20,
+    showInfo : function(){
+        const fn = () => {
+            const fn2 = () => {
+                console.log(this.name)
+            }
+            fn2()
+        }
+        fn()
+        
+    }
+}
+
+teo.showInfo()
+
 
 
 
